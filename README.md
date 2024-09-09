@@ -1,5 +1,4 @@
 # KEYLOGGER-KALI-LINUX-PROJECT
-# Keylogger Python Code README
 
 ## Overview
 This Python keylogger is a simple tool designed to capture keystrokes on a local machine. It can be useful for monitoring user activity, debugging applications, or for educational purposes in understanding how keylogging works.

